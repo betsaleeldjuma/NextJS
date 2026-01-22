@@ -38,6 +38,12 @@ const Task = () => {
               </div>
               <section className='flex space-x-4'>
                 <span className={`px-4 py-3 text-center text-sm rounded-full ${task.status === 'Completed' ? 'bg-green-100 text-green-600' : task.status === 'In Progress' ? 'bg-yellow-100 text-yellow-600' : 'bg-red-100 text-red-600'}`}>{task.status}</span>
+                {/* Buttons */}
+                <button className='px-4 py-2 text-white bg-blue-600 rounded-lg hover:bg-blue-700 transition-colors'>Edit</button>
+                {task.status === 'Completed' && (
+                  <button className='px-4 py-2 text-white bg-green-600 rounded-lg hover:bg-green-700 transition-colors'>Mark as Complete</button>
+                )}
+                <button className='px-4 py-2 text-gray-700 bg-gray-100 rounded-lg hover:bg-gray-200 transition-colors'>Delete</button>
               </section>
             </div>
           ))}
