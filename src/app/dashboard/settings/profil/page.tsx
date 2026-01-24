@@ -10,7 +10,7 @@ const Profil = () => {
           <h2 className='text-xl font-semibold text-gray-700 mb-4'>Profil Picture</h2>
           <div className="flex items-center space-x-4">
             <div className="w-24 h-24 rounded-ful bg-gray-300">
-              <img src="" alt="Profil" className='w-full h-full rounded-full object-cover' />
+              <img src="https://i.pinimg.com/736x/7f/13/33/7f1333c1a9177ccc9570f9ab2c417806.jpg" alt="Profil" className='w-full h-full rounded-full object-cover' />
             </div>
           </div>
           <div>

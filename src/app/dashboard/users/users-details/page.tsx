@@ -7,7 +7,7 @@ const UsersDetails = () => {
     role: 'Admin',
     status: 'Active',
     bio: 'Lorem ipsum dolor sit ame, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum, nisi lorem egestas odio, vitae scelerisque enim ligula venenatis dolor.',
-    profilPicture: '',
+    profilPicture: 'https://i.pinimg.com/736x/7f/13/33/7f1333c1a9177ccc9570f9ab2c417806.jpg',
     activities: [
       {id: 1, description: 'Updated password', timestamp: '2025-02-10'},
       {id: 2, description: 'Changed email adress', timestamp: '2025-01-25'},
